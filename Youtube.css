@@ -1,0 +1,52 @@
+.photo{
+    border-radius:50px;
+    width:50px;
+}
+.channel-photo{
+        width:50px;
+        display:inline-block;
+}
+.caption,.author,.views{
+    width: 250px;
+}
+.para{
+    font-weight:bold;
+    font-size:15px;
+    color:black;
+    /*font-style:italic;
+   text-align:center;*/
+   width:300px;
+   line-height:25px;
+   
+} 
+.para2{
+    font-size:14px;
+    color:rgb(99, 94, 94);
+    
+}
+.para3{
+    color:rgb(102, 97, 89);
+    margin-top:15px;
+    cursor:pointer;
+    margin-bottom:0px;
+}
+.thumbnail{
+    width:300px;
+    /*height:300px;
+    object-fit:cover;
+    object-position:left;*/
+}
+/*.searchbar{
+    font-size:20px;
+    padding-top:5px;
+    padding-bottom:10px;
+    margin-left:10px; 
+    display:block;
+}*/
+.video-preview{
+    width:300px;
+    display:inline-block;
+    margin-right:5px;
+    margin-bottom:5px;
+    vertical-align:top;
+}

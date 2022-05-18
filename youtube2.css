@@ -1,0 +1,53 @@
+p{
+    margin:0;
+}
+.author,.status{
+    color:rgb(104, 92, 92);
+}
+.division{
+   width:300px;
+   display:inline-block;
+   margin-right:5px;
+   margin-bottom:5px;
+   vertical-align:top;
+}
+.thumbnail{
+   width:300px;
+}
+.channel-photo{
+   width:50px;
+   display:inline-block;
+   vertical-align:top;
+}
+.stats{
+    width:200px;
+    display: inline-block;
+    margin-left:30px;
+}
+.channelphoto{
+   border-radius: 50px;
+   
+}
+.caption{
+   font-size:17px;
+   margin-bottom:7px; 
+   font-weight:bold;
+
+}
+.division2{
+margin-top:5px;
+margin-bottom:15px;
+}
+.author{
+   margin-bottom: 5px;
+}
+.header{
+   height:70px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.215);
+   margin-bottom:10px;
+}
+.side{
+   width:10px;
+   margin-right:5px;
+   box-shadow: 1px 1px black;;
+}

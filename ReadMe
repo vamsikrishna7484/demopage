@@ -1,0 +1,6 @@
+Image Loading
+How to create search box.
+while resizing the image using width/height it automatically reduce height also to maintain the ratio.
+object-fit and object position .
+ojbect-fit:contain fits the image into dimensin without changing it.
+object-fit:cover covers the entire dimension with photo without changing its quality.
