@@ -1,0 +1,46 @@
+->actually setting height and width of actually of a button or any element is not at all a good idea. why because some times 
+our input text will be so large that overflows the element boundaries.. so always go with padding .
+padding-top 
+padding-left
+padding-right.
+padding-bottom
+
+
+let's replace all height and width attributeswith padding from exercises 3
+
+in exercise 3e we have some observations:
+ 1. usaully by default all the buttons will be aligned based on the text ...i.e. in that line of buttons all are aligned based on text.
+  so to make the alignment based on the button ,,.we can use vertical-align:top on a element to make it to move up in order to align with remaining elements.
+
+4j. is little bit satisfactory..check it out.
+
+css has 3 types of elements :
+       1.block elements which taks the entire row ( ex <p>,<div>)
+       2.inline-block elements which take as much space as needed(ex <button> <input>)
+       3.inline elements which will be inside the line.
+
+exercise 8 is regarding these elements..
+
+display:margin
+grid-template-columns: 1fr 1fr 1fr; ex
+column-gap: 20px;
+row-gap: 20px;
+ 
+flexbox:
+    outerdiv{
+       display:flex;
+       flex-direction: row;
+    }
+    .innerdiv{
+           flex:1 ///it takes the entire remaining row space same as 1fr
+    }
+gridbox:
+       outerdiv{
+              display:grid;
+              grid-columns:100px 1fr 2fr;
+       }
+       
+difference between flexbox and grid:
+       ->flexbox's innerdiv width is dependent on its own element.so order of innerdiv is important.
+       ->gridbox's innerdiv width is determined by outerdiv grid-columns.
+ 
